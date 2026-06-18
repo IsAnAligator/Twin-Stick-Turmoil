@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 6390017003951004157}
   - component: {fileID: 1269162053523374589}
   - component: {fileID: 6890503847221473588}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Robot_Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
