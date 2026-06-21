@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 8876518147586429690}
   - component: {fileID: 8927456802475293209}
   - component: {fileID: 2846025565556064008}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Destructible_Table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
