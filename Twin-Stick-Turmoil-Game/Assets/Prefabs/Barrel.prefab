@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: AstarPathfindingProject::Pathfinding.GraphUpdateScene
   version: 1
-  uniqueID: 7146669085817517361
+  uniqueID: 1582738755577129442
   points: []
   convex: 1
   minBoundsHeight: 1
