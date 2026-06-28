@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5216388516542658261}
   - component: {fileID: 6397332416229472783}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DES_Shapes_Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2447887738901081599}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Calloway_Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}

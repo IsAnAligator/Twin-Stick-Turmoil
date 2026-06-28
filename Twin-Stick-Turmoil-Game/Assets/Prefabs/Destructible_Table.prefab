@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2852501829893845696}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cover_North
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 8876518147586429690}
   - component: {fileID: 8927456802475293209}
   - component: {fileID: 2846025565556064008}
-  m_Layer: 1
+  m_Layer: 8
   m_Name: Destructible_Table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -256,7 +256,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5037978981706114643}
   - component: {fileID: 4593234589683116139}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Destroyed_Table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -346,7 +346,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7250276202116637076}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cover_South
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -377,7 +377,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9034983707456689897}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cover_East
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -411,7 +411,7 @@ GameObject:
   - component: {fileID: 3919598852386750550}
   - component: {fileID: 1038397796985226720}
   - component: {fileID: 559530760544164865}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Complete_Table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -532,7 +532,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7253876457651799498}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cover_West
   m_TagString: Untagged
   m_Icon: {fileID: 0}

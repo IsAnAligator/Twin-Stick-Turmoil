@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7074366955169958989}
   - component: {fileID: 8764152395969989876}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: DES_Shapes_SquareBordered
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 5108975198933188741}
   - component: {fileID: 8783380279673967128}
   - component: {fileID: 3966998458313725052}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: Barrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: AstarPathfindingProject::Pathfinding.GraphUpdateScene
   version: 1
-  uniqueID: 1582738755577129442
+  uniqueID: 9216894102103193903
   points: []
   convex: 1
   minBoundsHeight: 1
@@ -212,7 +212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5199590129409164087}
   - component: {fileID: 5207404900868281521}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: DES_Shapes_CircleBordered
   m_TagString: Untagged
   m_Icon: {fileID: 0}

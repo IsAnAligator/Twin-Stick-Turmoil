@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5853053246056858689}
   - component: {fileID: 3456835907037458923}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DES_Shapes_RoundSquare
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 251504236663585875}
   - component: {fileID: 8474081573805097131}
   - component: {fileID: 2345032526213811047}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bottle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -312,7 +312,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3768539836219832030}
   - component: {fileID: 6431262240194800928}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DES_Shapes_RoundSquare (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

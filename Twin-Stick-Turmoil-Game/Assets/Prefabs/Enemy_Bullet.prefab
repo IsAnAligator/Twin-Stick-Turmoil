@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4066877715895555616}
   - component: {fileID: 1858914826179429424}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DES_Shapes_Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8804179485440128119}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Enemy_Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}

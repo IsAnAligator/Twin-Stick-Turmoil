@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8870782149623457541}
   - component: {fileID: 191890043859051721}
   - component: {fileID: 4221360674194492708}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tumbler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -190,7 +190,7 @@ GameObject:
   - component: {fileID: 6672631516983474830}
   - component: {fileID: 5001412415071535258}
   - component: {fileID: 4775764233315240354}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DES_Shapes_Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -312,7 +312,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7593137346738395926}
   - component: {fileID: 3573006875245745785}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DES_Shapes_Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
