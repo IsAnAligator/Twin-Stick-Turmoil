@@ -41544,6 +41544,11 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   CustomBlends: {fileID: 0}
+--- !u!1 &232007536 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8184862535538434337, guid: 3357945cecb14e24ab1012de865ec08a, type: 3}
+  m_PrefabInstance: {fileID: 1506346829}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &238524761
 GameObject:
   m_ObjectHideFlags: 0
@@ -42028,13 +42033,15 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DeadEnemies","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TownCam","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"IsPaused","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TimerCountdownTransitionOnly","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"NextSceneTransitionOnly","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"Zone1Enemies","value":{"$content":[6,7,8],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TimerCountdownTransitionOnly","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"Zone1Enemies","value":{"$content":[6,7,8],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Zone2Enemies","value":{"$content":[9,10,11],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"NextScene","value":{"$content":"Level1_Saloon.Beta","$type":"System.String"},"typeHandle":{"Identification":"System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"FadeOut","value":{"$content":12,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 221889358}
     - {fileID: 1733542275}
@@ -42048,6 +42055,7 @@ MonoBehaviour:
     - {fileID: 2078509581}
     - {fileID: 1812247000}
     - {fileID: 404205154}
+    - {fileID: 232007536}
 --- !u!4 &1045097720
 Transform:
   m_ObjectHideFlags: 0
@@ -50798,8 +50806,8 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 221889361}
   - {fileID: 1506346829}
+  - {fileID: 221889361}
   - {fileID: 1947564357}
   - {fileID: 1045097720}
   - {fileID: 289166384}
