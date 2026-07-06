@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1145744197943533626}
   - component: {fileID: 3621817296869441563}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: DES_Shapes_SquareBordered
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,7 +101,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6561597052103475767}
   - component: {fileID: 3551431829939652183}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: DES_Shapes_Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -192,7 +192,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7159303292064412800}
   - component: {fileID: 3975754064736659080}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: DES_Shapes_OctagonBordered
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -286,7 +286,7 @@ GameObject:
   - component: {fileID: 8144245823059088264}
   - component: {fileID: 7493711744770089046}
   - component: {fileID: 9174019796226110592}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gun_Generator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -497,7 +497,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4877918235164268329}
   - component: {fileID: 3380958452102677883}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: DES_Shapes_OctagonBordered (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
