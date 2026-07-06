@@ -8,25 +8,22 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 0
-    path: Assets/Scenes/Tutorial_Level.unity
-    guid: ff9720bfe3e95c64eba1fc5488513ca0
   - enabled: 1
     path: Assets/Scenes/Level0_Tutorial.Beta.unity
     guid: 93b8f04f3e6096e48a5745f1537ef998
-  - enabled: 0
-    path: Assets/Scenes/Level1_Saloon.unity
-    guid: b867d5d0f4a64f6439c58626289d3d15
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/Level1_Saloon.Beta.unity
+    guid: 4600675512b9e2341b626ceb2b0ef698
+  - enabled: 1
     path: Assets/Scenes/Level2_ValleyCamp.unity
     guid: 7a9f2bff1ac12724f8c724762a6fa188
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Level3_Train.unity
     guid: c9e94a29d7b1eb6439cb8d7b05b0e8e6
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/WinScene.unity
     guid: 5628e610cdb354341a4aa4c89d1f20f1
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/LoseScene.unity
     guid: 7ecb654ca687c9645ae4d7bd20fc0f94
   m_configObjects:
