@@ -135,12 +135,12 @@ GameObject:
   - component: {fileID: 4413870450502168511}
   - component: {fileID: 5162721012612135472}
   - component: {fileID: 6390017003951004157}
+  - component: {fileID: 7260038090506575448}
   - component: {fileID: 6890503847221473588}
   - component: {fileID: 4288999876915356781}
   - component: {fileID: -8404642515592211368}
   - component: {fileID: 5331986681542575412}
   - component: {fileID: 6216489634316080755}
-  - component: {fileID: 7260038090506575448}
   - component: {fileID: 1616610096139313906}
   m_Layer: 7
   m_Name: Robot_Enemy
@@ -257,6 +257,22 @@ MonoBehaviour:
     _objectReferences:
     - {fileID: 6842091828304451976, guid: e481eae2379028543a118c64a8fa4ff1, type: 3}
     - {fileID: 5489746801843068147}
+--- !u!114 &7260038090506575448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978464691021171816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe58df89b5b74a97a123b5ed2b70422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.State::Unity.VisualScripting.StateMachine
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 5f1d69bbe872bb34c92f92d0b2e572c1, type: 2}
 --- !u!82 &6890503847221473588
 AudioSource:
   m_ObjectHideFlags: 0
@@ -279,7 +295,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -460,22 +476,6 @@ MonoBehaviour:
   bezierTangentLength: 0.4
   offset: 0.2
   factor: 0.1
---- !u!114 &7260038090506575448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 978464691021171816}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: efe58df89b5b74a97a123b5ed2b70422, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.VisualScripting.State::Unity.VisualScripting.StateMachine
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 5f1d69bbe872bb34c92f92d0b2e572c1, type: 2}
 --- !u!120 &1616610096139313906
 LineRenderer:
   serializedVersion: 3
@@ -484,7 +484,7 @@ LineRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 978464691021171816}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
