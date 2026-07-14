@@ -52843,18 +52843,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 623871038997363961, guid: 1a8a5e097e76d3b4e94e0d05eded8d1e, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 623871038997363961, guid: 1a8a5e097e76d3b4e94e0d05eded8d1e, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 623871038997363961, guid: 1a8a5e097e76d3b4e94e0d05eded8d1e, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2022750649774838381, guid: 1a8a5e097e76d3b4e94e0d05eded8d1e, type: 3}
       propertyPath: m_Name
       value: Player
@@ -52873,19 +52861,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8086388465052671023, guid: 1a8a5e097e76d3b4e94e0d05eded8d1e, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.70270133
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8086388465052671023, guid: 1a8a5e097e76d3b4e94e0d05eded8d1e, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8086388465052671023, guid: 1a8a5e097e76d3b4e94e0d05eded8d1e, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8086388465052671023, guid: 1a8a5e097e76d3b4e94e0d05eded8d1e, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.71148497
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8086388465052671023, guid: 1a8a5e097e76d3b4e94e0d05eded8d1e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -52897,7 +52885,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8086388465052671023, guid: 1a8a5e097e76d3b4e94e0d05eded8d1e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -90.712
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
