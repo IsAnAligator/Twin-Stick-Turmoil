@@ -42040,6 +42040,7 @@ GameObject:
   m_Component:
   - component: {fileID: 575866018}
   - component: {fileID: 575866019}
+  - component: {fileID: 575866020}
   m_Layer: 0
   m_Name: EnemyZoneCam2
   m_TagString: Untagged
@@ -42105,6 +42106,30 @@ MonoBehaviour:
       BarrelClipping: 0.25
       Anamorphism: 0
   BlendHint: 0
+--- !u!114 &575866020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575866017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b2d199b96b516448144ab30fb26aed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineImpulseListener
+  ApplyAfter: 2
+  ChannelMask: 1
+  Gain: 1
+  Use2DDistance: 0
+  UseCameraSpace: 1
+  SignalCombinationMode: 0
+  ReactionSettings:
+    m_SecondaryNoise: {fileID: 0}
+    AmplitudeGain: 1
+    FrequencyGain: 1
+    Duration: 1
+    m_NoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!1 &601035015
 GameObject:
   m_ObjectHideFlags: 0
@@ -42162,7 +42187,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Right Mouse Button to Shoot!
+  m_text: Left Mouse Button to Shoot!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -49575,6 +49600,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1208819246}
   - component: {fileID: 1208819245}
+  - component: {fileID: 1208819247}
   m_Layer: 0
   m_Name: EnemyZoneCam1
   m_TagString: Untagged
@@ -49640,6 +49666,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1468820538}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1208819247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208819244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b2d199b96b516448144ab30fb26aed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineImpulseListener
+  ApplyAfter: 2
+  ChannelMask: 1
+  Gain: 1
+  Use2DDistance: 0
+  UseCameraSpace: 1
+  SignalCombinationMode: 0
+  ReactionSettings:
+    m_SecondaryNoise: {fileID: 0}
+    AmplitudeGain: 1
+    FrequencyGain: 1
+    Duration: 1
+    m_NoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!1001 &1260417271
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50146,6 +50196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 7858992722489970871, guid: 3357945cecb14e24ab1012de865ec08a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8441666395372207047, guid: 3357945cecb14e24ab1012de865ec08a, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -50526,6 +50580,7 @@ GameObject:
   - component: {fileID: 1733542278}
   - component: {fileID: 1733542277}
   - component: {fileID: 1733542276}
+  - component: {fileID: 1733542279}
   m_Layer: 0
   m_Name: PlayerFollowCam
   m_TagString: Untagged
@@ -50610,6 +50665,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1468820538}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1733542279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733542275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b2d199b96b516448144ab30fb26aed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineImpulseListener
+  ApplyAfter: 2
+  ChannelMask: 1
+  Gain: 1
+  Use2DDistance: 0
+  UseCameraSpace: 1
+  SignalCombinationMode: 0
+  ReactionSettings:
+    m_SecondaryNoise: {fileID: 0}
+    AmplitudeGain: 1
+    FrequencyGain: 1
+    Duration: 1
+    m_NoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!1 &1785194655 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2022750649774838381, guid: 1a8a5e097e76d3b4e94e0d05eded8d1e, type: 3}
@@ -51013,6 +51092,10 @@ PrefabInstance:
     - target: {fileID: 2022750649774838381, guid: 1a8a5e097e76d3b4e94e0d05eded8d1e, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2022750649774838381, guid: 1a8a5e097e76d3b4e94e0d05eded8d1e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8086388465052671023, guid: 1a8a5e097e76d3b4e94e0d05eded8d1e, type: 3}
       propertyPath: m_LocalPosition.x
